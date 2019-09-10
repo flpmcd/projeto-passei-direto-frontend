@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Form = styled.form`
+const FormStyle = styled.form`
 display: flex;
 flex-direction: column;
 margin: 0 auto;
@@ -32,4 +32,4 @@ button {
 }
 `;
 
-export default Form;
+export default FormStyle;

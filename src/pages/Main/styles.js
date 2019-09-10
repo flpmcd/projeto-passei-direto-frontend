@@ -1,35 +1,36 @@
 import styled from 'styled-components';
 
-const DiscList = styled.div`
-background: #f4f4f4;
-border-radius: 10px;
-width: 80%;
-margin: 20px auto;
-display: flex;
+export const DiscList = styled.div`
+  background: #f4f4f4;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
 
-.info {
-    flex:1;
+  .no-image {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+  }
+  .info {
+    flex: 1;
     margin: 10px;
-}
-.info div{
+  }
+  .info div {
     padding: 5px;
     margin: 5px 5px;
   }
 
   .info h4 {
-      margin: 5px 10px;
+    margin: 5px 10px;
   }
-
-  .icons {
-      margin: 15px 10px;
-      font-size: 15px;
-  }
-
-  .icon {
-      margin-left: 5px;
-      text-decoration: none;
-  }
-
 `;
 
-export default DiscList;
+export const Search = styled.input`
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #287aa9;
+  font-size: 15px;
+`;

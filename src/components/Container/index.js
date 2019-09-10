@@ -13,15 +13,46 @@ const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 10%;
   }
 
-  a{
+  p {
+    margin: 15px;
+  }
+
+  a {
     text-decoration: 'none';
   }
 
-  svg {
-    margin-right: 10px;
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .head span {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .head a {
+    text-decoration: none;
+  }
+
+  .icons {
+    margin: 15px 10px;
+  }
+
+  .icon {
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
   }
 `;
 
